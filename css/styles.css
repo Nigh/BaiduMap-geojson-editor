@@ -54,7 +54,7 @@ body {
 
 /* Panel styles. */
 
-#panel {
+#editor-panel {
     float: left;
     width: 35%;
     height: 100%;

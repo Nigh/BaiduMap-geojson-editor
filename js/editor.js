@@ -26,7 +26,7 @@ function init() {
 
     // Retrieve HTML elements.
     dropContainer = document.getElementById('drop-container');
-    panel = document.getElementById('panel');
+    panel = document.getElementById('editor-panel');
     var mapContainer = document.getElementById('map-holder');
     geoJsonInput = document.getElementById('geojson-input');
     downloadLink = document.getElementById('download-link');
@@ -225,7 +225,7 @@ function resizeMap(map) {
 
 // Call all functions at once
 function panelToggle() {
-    toggle_visibility('panel');
+    toggle_visibility('editor-panel');
     changeWidth('map-container');
     resizeMap(map);
 }
